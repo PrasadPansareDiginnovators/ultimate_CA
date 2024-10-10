@@ -1,0 +1,263 @@
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+.regi-main-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+}
+
+.registration-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 160px;
+  margin-top: 100px;
+}
+
+.register_content {
+  display: flex;
+  width: 100%;
+}
+.container {
+  display: flex;
+  width: 100%;
+}
+
+.section-left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.section-right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.ultimateca-logo {
+  width: 31.2px;
+  height: 32px;
+  position: fixed;
+  top: 48px;
+  left: 160px;
+}
+@media (max-width: 768px) {
+  .ultimateca-logo {
+    position: static;
+    margin: 40px;
+  }
+}
+
+.registration-content {
+  max-width: 450px;
+  border: 1px solid #e5e5e5;
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 40px;
+  box-shadow: 1px 1px 30px 0px #00000014;
+  border: none;
+}
+
+.regi-text {
+  font-family: "Cardo", serif;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 40px;
+  color: #37517e;
+  padding-bottom: 16px;
+}
+
+.input-label {
+  display: block;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 25.95px;
+  padding-top: 12px;
+}
+
+.input-field {
+  max-width: 100%;
+  width: 425px;
+  padding: 10px;
+  border: 1px solid #e5e5e5;
+  border-radius: 8px;
+  font-weight: 400;
+  font-size: 16px;
+  margin-top: 5px;
+  color: #808080;
+  outline: none;
+}
+
+.checkbox-container {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.checkbox {
+  width: 17px;
+  height: 17px;
+  margin-right: 10px;
+  appearance: none;
+  border: 1px solid #e5e5e5;
+  border-radius: 2px;
+  position: relative;
+  cursor: pointer;
+  background-color: #f7f7f7;
+}
+
+.checkbox:checked {
+  background-color: #ff603e;
+  border-color: #ff603e;
+}
+
+.checkbox:checked::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 4px;
+  height: 7px;
+  border: solid white;
+  border-width: 0 2px 2px 0;
+  transform: translate(-50%, -50%) rotate(45deg);
+}
+
+.checkbox-label {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 26px;
+}
+.checkbox-container {
+  align-items: flex-start;
+}
+
+.terms-text {
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 26px;
+  color: #ff603e;
+}
+
+.register-btn {
+  background: linear-gradient(90deg, #ff284e 0%, #ff7539 100%);
+  width: 100%;
+  height: 60px;
+  border: none;
+  border-radius: 50px;
+  margin-top: 24px;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 30px;
+  font-family: "Poppins", sans-serif;
+  cursor: pointer;
+}
+
+.acc-text {
+  display: flex;
+  justify-content: center;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 25.95px;
+  padding-top: 10px;
+}
+.signin-text {
+  font-weight: 500;
+  font-size: 15px;
+  padding-left: 4px;
+  line-height: 25.95px;
+  color: #ff603e;
+}
+
+.custom-mainright-section {
+  display: flex;
+  align-items: center;
+  background-image: url(img/backgroud-mobile.svg);
+  background-repeat: no-repeat;
+  background-position: 100% 75%;
+  background-size: 265px 311px;
+  height: 100vh;
+  justify-content: flex-end; 
+  width: 100%; 
+}
+
+.custom-right-section {
+  background-image: url(img/background_line.svg), url(img/backgroud-logo.svg);
+  background-repeat: no-repeat, no-repeat;
+  background-position: right, 95% 0%;
+  background-size: 686px 458px, 216px 224px;
+  width: 686px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  padding-right: 30px;
+}
+
+.custom-right-section-content {
+  margin-right: 170px;
+}
+
+.Ultimateca-logo1 {
+  padding-top: 24px;
+}
+
+.custom-right-section-heading {
+  font-family: "Cardo", serif;
+  font-weight: 700;
+  font-size: 36px;
+  color: #37517e;
+  padding-top: 50px;
+  padding-bottom: 40px;
+}
+
+.custom-right-section-text {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.custom-right-section-data {
+  display: flex;
+  align-items: center;
+}
+
+.tick-img {
+  width: 20px;
+  height: 20px;
+  margin-right: 8px;
+}
+
+.custom-right-section-data p {
+  font-weight: 400;
+  font-size: 16px;
+  margin: 0;
+}
+
+@media (max-width: 768px) {
+  .custom-mainright-section,
+  .custom-right-section {
+    display: none;
+  }
+
+  .registration-section {
+    width: 100%;
+    padding-right: 40px;
+    padding-left: 40px;
+  }
+
+  .registration-content {
+    max-width: 100%;
+  }
+  .input-field {
+    width: 100%;
+  }
+}
